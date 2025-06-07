@@ -1,0 +1,137 @@
+    body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333 !important; /* Gris oscuro */
+}
+
+.navbar-brand img {
+  filter: brightness(1.2);
+}
+
+/* Frase inspiradora o despedida */
+.frase-despedida {
+  background: linear-gradient(135deg, #fafafa, #eeeeee);
+  color: #333333;
+  padding: 1.5rem 2rem;
+  font-style: italic;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+
+/* Carrusel de imágenes corporativas */
+.carrusel-corporativos img {
+  border-radius: 15px;
+}
+
+
+/* Lista de horarios  */
+
+
+/* --------------Lista de horarios----------- */
+.timeline-section {
+background-color: #f9f9f9;
+}
+
+.timeline {
+position: relative;
+padding: 20px 0;
+margin: 0 auto;
+max-width: 800px;
+}
+
+.timeline::before {
+content: '';
+position: absolute;
+left: 20px;
+top: 0;
+width: 4px;
+height: 100%;
+background-color: #ddd;
+}
+
+.timeline-item {
+position: relative;
+margin-bottom: 40px;
+padding-left: 60px;
+}
+
+.timeline-item::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.timeline-icon {
+position: absolute;
+left: 0;
+top: 0;
+background-color: var(--primary-color, #333);
+color: #fff;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.timeline-content {
+background-color: #fff;
+padding: 15px 20px;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.timeline-content h5 {
+margin-top: 0;
+font-weight: bold;
+color: var(--primary-color, #333);
+}
+
+.timeline-content p {
+margin-bottom: 0;
+color: #555;
+}
+
+
+
+
+/* Testimonios */
+.testimonio-card {
+  background-color: #ffe6f0;
+  border-left: 5px solid #e056fd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Botones */
+.btn-despedida {
+  background-color: #e056fd;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-despedida:hover {
+  background-color: #be4bdb;
+}
+
+/* Footer */
+footer {
+  background-color: #333; /* Gris oscuro para combinar con navbar */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}

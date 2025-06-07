@@ -1,0 +1,115 @@
+/* -------------------- GENERAL -------------------- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #fffdf8, #f3e5f5); /* Fondo suave (ajustado a la paleta de tu página principal) */
+    color: #010101;
+    transition: all 0.5s ease;
+}
+
+/* -------------------- RESET DE MÁRGENES Y PADDING -------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------- NAVBAR -------------------- */
+.navbar {
+    background-color: #000 !important; /* Navbar negro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: #fff !important; /* Enlaces blancos en el navbar */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #b03060 !important; /* Rosa oscuro al pasar el ratón */
+}
+
+/* -------------------- FRASE PRINCIPAL -------------------- */
+.frase-egresados {
+    text-align: center;
+    background: linear-gradient(135deg, #fffdf8, #f3e7f3); /* Fondo lavanda suave */
+    padding: 50px 30px;
+    border-radius: 30px;
+    margin: 40px auto;
+    max-width: 850px;
+    box-shadow: 0 4px 30px rgba(220, 190, 245, 0.2);
+    border: 1px solid rgba(220, 190, 245, 0.3);
+    transition: all 0.3s ease;
+}
+
+.frase-egresados h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #b03060; /* Rosa oscuro */
+    font-family: 'Playfair Display', serif;
+    animation: fadeIn 2s ease-in-out;
+    letter-spacing: 1px;
+}
+
+/* -------------------- CARRUSEL DE EGRESADOS -------------------- */
+#carruselEgresados {
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(100, 100, 111, 0.2);
+}
+
+#carruselEgresados .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* -------------------- FORMULARIO -------------------- */
+.formulario-egresados {
+    background-color: #fffdf8; /* Fondo suave como en la página principal */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(180, 177, 225, 0.2);
+}
+
+.formulario-egresados h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #b03060; /* Rosa oscuro */
+}
+
+/* -------------------- FOOTER -------------------- */
+.footer {
+    background-color: #000; /* Footer negro */
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 120px;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    margin: 0.5rem 0;
+}
+
+.footer .redes-sociales img {
+    width: 32px;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    background-color: #000; /* Footer negro */
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #fff; /* Texto blanco */
+}

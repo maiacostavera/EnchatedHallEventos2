@@ -1,0 +1,233 @@
+/* -------------------- GENERAL -------------------- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffdf8; /* Color de fondo como en la página principal */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------- NAVBAR -------------------- */
+.navbar {
+    background-color: #000 !important; /* Navbar negro */
+}
+
+.navbar-brand img {
+    max-height: 60px;
+}
+
+.nav-link {
+    color: #fff !important; /* Blanco para los enlaces en el navbar */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #b03060 !important; /* Rosa oscuro al pasar el ratón */
+}
+
+/* -------------------- FRASE -------------------- */
+.frase-romantica {
+    background-color: #fffdf8; /* Color de fondo de la página principal */
+    color: #b03060; /* Rosa oscuro */
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* -------------------- CARRUSEL -------------------- */
+.carrusel-contenedor {
+    display: flex;
+    gap: 16px;
+}
+
+.carrusel-contenedor img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+}
+
+.carrusel-contenedor img:hover {
+    transform: scale(1.05);
+}
+
+/* -------------------- TESTIMONIOS -------------------- */
+.testimonios-babyshower {
+    background-color: #fff0f5; /* Fondo rosa pastel */
+    border-top: 2px dashed #e3a8c2;
+    border-bottom: 2px dashed #e3a8c2;
+    padding: 3rem 0;
+}
+
+.testimonios-babyshower h3 {
+    color: #b03060; /* Rosa oscuro */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.testimonio-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    position: relative;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-left: 5px solid #ffc0cb; /* Rosa claro */
+}
+
+.testimonio-text::before {
+    content: "“";
+    font-size: 2.5rem;
+    color: #e75480; /* Rosa medio */
+    position: relative;
+    top: 10px;
+    left: -5px;
+}
+
+.testimonio-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.testimonio-nombre {
+    font-weight: bold;
+    color: #b03060; /* Rosa oscuro */
+    margin-top: 0.5rem;
+}
+
+/*-----Lista de Horarios------------ */
+
+.timeline-section {
+background-color: #f9f9f9;
+}
+
+.timeline {
+position: relative;
+padding: 20px 0;
+margin: 0 auto;
+max-width: 800px;
+}
+
+.timeline::before {
+content: '';
+position: absolute;
+left: 20px;
+top: 0;
+width: 4px;
+height: 100%;
+background-color: #ddd;
+}
+
+.timeline-item {
+position: relative;
+margin-bottom: 40px;
+padding-left: 60px;
+}
+
+.timeline-item::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.timeline-icon {
+position: absolute;
+left: 0;
+top: 0;
+background-color: var(--primary-color, #333);
+color: #fff;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.timeline-content {
+background-color: #fff;
+padding: 15px 20px;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.timeline-content h5 {
+margin-top: 0;
+font-weight: bold;
+color: var(--primary-color, #333);
+}
+
+.timeline-content p {
+margin-bottom: 0;
+color: #555;
+}
+
+
+
+
+/* -------------------- FORMULARIO -------------------- */
+.formulario-babyshower {
+    background-color: #fffafa; /* Rosado suave */
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.formulario-babyshower h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #b03060; /* Rosa oscuro */
+}
+
+.formulario-babyshower .form-control {
+    border-radius: 10px;
+    border: 1px solid #ffc0cb; /* Rosa claro */
+}
+
+.formulario-babyshower button {
+    background-color: #ff69b4; /* Rosa fuerte */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+}
+
+.formulario-babyshower button:hover {
+    background-color: #e75480; /* Rosa medio */
+}
+
+/* -------------------- FOOTER -------------------- */
+.footer {
+    background-color: #000; /* Footer negro */
+    color: #fff; /* Texto blanco en el footer */
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 120px;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    margin: 0.5rem 0;
+}
+
+.footer .redes-sociales img {
+    width: 32px;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    background-color: #000; /* Footer negro */
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #fff; /* Texto blanco */
+}

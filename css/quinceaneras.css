@@ -1,0 +1,224 @@
+/* -------------------- GENERAL -------------------- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #fffdf8, #f5f5f5); /* Fondo más neutro similar al principal */
+    color: #5a2a5a;
+    transition: all 0.5s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------- NAVBAR -------------------- */
+.navbar {
+    background-color: #000 !important; /* Navbar negro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+/* -------------------- ENLACES DEL NAVBAR -------------------- */
+.nav-link {
+    color: #fff !important; /* Texto blanco */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #b03060 !important; /* Rosa oscuro en hover */
+}
+
+/* -------------------- FRASE DESTACADA -------------------- */
+.frase-quince {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 60px 20px;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.2); /* dorado suave */
+    border: 2px solid #f1c40f; /* Borde dorado */
+}
+
+.frase-quince h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a4a4a; /* Gris oscuro */
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animación de la frase */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* -------------------- CARRUSEL -------------------- */
+#carruselQuinceaneras {
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(90, 42, 90, 0.2);
+}
+
+#carruselQuinceaneras .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* -------------------- CITA DESTACADA -------------------- */
+blockquote {
+    background: #fff;
+    border-left: 5px solid #f8bbd0;
+    margin: 20px;
+    padding: 20px;
+    font-style: italic;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+blockquote:hover {
+    transform: scale(1.02);
+}
+
+
+
+/*----Lista de horarios-----*/
+
+/* --------------Lista de horarios----------- */
+.timeline-section {
+background-color: #f9f9f9;
+}
+
+.timeline {
+position: relative;
+padding: 20px 0;
+margin: 0 auto;
+max-width: 800px;
+}
+
+.timeline::before {
+content: '';
+position: absolute;
+left: 20px;
+top: 0;
+width: 4px;
+height: 100%;
+background-color: #ddd;
+}
+
+.timeline-item {
+position: relative;
+margin-bottom: 40px;
+padding-left: 60px;
+}
+
+.timeline-item::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.timeline-icon {
+position: absolute;
+left: 0;
+top: 0;
+background-color: var(--primary-color, #333);
+color: #fff;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.timeline-content {
+background-color: #fff;
+padding: 15px 20px;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.timeline-content h5 {
+margin-top: 0;
+font-weight: bold;
+color: var(--primary-color, #333);
+}
+
+.timeline-content p {
+margin-bottom: 0;
+color: #555;
+}
+
+
+
+/* -------------------- FORMULARIO -------------------- */
+.formulario-quince {
+    background: #fce4ec;
+    padding: 50px 20px;
+    border-radius: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 0 30px rgba(240, 128, 128, 0.2);
+}
+
+.formulario-quince h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #880e4f; /* Rosa oscuro */
+}
+
+/* -------------------- BOTÓN DE ENVÍO -------------------- */
+.btn-enviar {
+    background-color: #6d9c6d; /* Verde oliva suave */
+    border: none;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.btn-enviar:hover {
+    background-color: #5a875a; /* Verde más oscuro */
+}
+
+/* -------------------- FOOTER -------------------- */
+.footer {
+    background-color: #000; /* Footer negro */
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociales img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    background-color: #000; /* Footer negro */
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #fff; /* Texto blanco */
+}
